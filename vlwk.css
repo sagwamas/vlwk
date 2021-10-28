@@ -1,0 +1,214 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family:"나눔고딕",NanumGothic,"맑은고딕",MalgunGothic,"Apple SD Gothic Neo",sans-serif;
+    line-height: 1.8;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 15;
+}
+
+.page-title {
+    font-size: 5rem;
+    font-family: 'Philosopher', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+    list-style: none;
+
+}
+
+.main-nav li {
+    margin-left: 60px;
+}
+
+.main-nav a {
+    color: #000000;
+}
+
+.main-nav a:hover {
+    color: #ff0000;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#home {
+    background-image: url(매인22.png);
+    background-blend-mode: luminosity;
+    min-height: 100vh;
+}
+
+#home .page-title {
+    text-transform: none;
+}
+
+#menu {
+    background-image: url(매인3.png);
+    background-blend-mode: luminosity;
+    min-height: 100vh;
+}
+
+#menu .page-title {
+    text-transform: none;
+}
+
+.sagwa {
+    margin: 100px 0 0; 
+    text-align: center;
+}
+
+.coupon {
+    margin-top: 100px;
+}
+
+.coupon1 {
+    margin-top: 10px;
+}
+
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 6%;
+    margin-bottom: 5px;
+}
+
+.container {
+    width: 300vw;
+    transition: transform 0.5s;
+}
+
+.inner {
+    width: 100vw;
+    float: left;
+}
+
+.inner img {
+    width: 100%;
+}
+
+.apsb {
+    margin: 80px 0 0;
+    text-align: center;
+}
+
+.버튼 {
+    text-align: center;
+}
+
+.next {
+    text-align: center;
+}
+
+.main-radio {
+    text-align: center;
+}
+
+.cncjs {
+    margin-top: 100px;
+}
+
+.apsbe {
+    text-decoration: underline;
+    text-emphasis-color: #989898;
+}
+
+form div {
+    margin-bottom: 50px;
+}
+
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    background: #fff;
+    border: 1px #989898 solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    
+}
+
+
+input[type="text"] {
+    width: 100%;
+    max-width: 10px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 380px;
+    height: 6rem;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.wrappper {
+    margin-left: 250px;
+}
+
+.button{
+    width: 10%; height: 48px;
+    background: #FF0000;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+.dk {
+    background-position: right top;
+    margin-right: 200px;
+    background-repeat: no-repeat;
+}
+
+#room {
+    background-image: url(주문.png);
+    background-blend-mode: luminosity;
+    min-height: 1vh;
+}
