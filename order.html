@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Pizza" content="피자팜">
+    <title>Vlwk order</title>
+    <link rel="icon" type="images/png" href="파비콘.png">
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?famil=Philosopher" rel="stylesheet">
+    <link href="vlwk.css" rel="stylesheet">
+</head>
+<body>
+    <div id="menu" class="bing-bg">
+        <header class="page-header wrapper">
+            <h1><a href="main.html"><img class="logo" src="main-logo.png" alt="피자"></a></h1>
+
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="order.html">주문</a></li>
+                    <li><a href="menu.html">메뉴</a></li>
+                    <li><a href="login.html">로그인</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <br>
+        <br>
+        <br>
+        <center><h1>주문</h1></center>
+        <br>
+        <br>
+        
+        <div id = "room" class="dk">
+            <div class="wrappper">
+        
+                <form action="#">
+                    <div>
+                        <label for="name">이름</label>
+                        <input type="sagwa" id="name" required>
+                    </div>
+        
+                    <div>
+                        <label for="number">전화번호</label>
+                        <input type="sagwa" id="number" required>
+                    </div>
+        
+                    <div>
+                        <label for="address">주소</label>
+                        <input type="email" id="address" required>
+                    </div>
+        
+                    <div>
+                        <label for="request">배달 요청사항</label>
+                        <textarea id="message" name="your-message" required></textarea>
+                    </div>
+    
+                    
+                </form>
+            </div>
+        </div>
+
+        <center><input type="button" class="button" value="결제 하기" onclick="alert('주문이 완료되었습니다.')"></center>
+        <br>
+        <br>
+        <br>
+
+        <center><iframe src="https://www.google.com/maps/d/embed?mid=1CG9wtJW38Q-X_LeC8VTN8J5hHDlRbE-3" width="1120" height="550"></iframe></center>
+
+        <a href="login.html"></a><img class="coupon1" src="sagwa.png"></a>
+    </div>
+</body>
+</html>
